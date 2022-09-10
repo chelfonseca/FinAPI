@@ -1,0 +1,20 @@
+{
+  "name": "fin-api",
+  "version": "1.0.0",
+  "description": "fin-api build on Ignite NodeJS module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prod": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "author": "Michel Fonseca",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
